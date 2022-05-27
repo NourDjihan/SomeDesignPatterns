@@ -1,5 +1,5 @@
 # Template Pattern:
-Template method design pattern is to define an algorithm as a skeleton of operations and leave the details to be implemented by the child classes. The overall structure and sequence of the algorithm are preserved by the parent class. If the method is defined with Final key wod it cannot be overriden.
+Template method design pattern is to define an algorithm as a skeleton of operations and leave the details to be implemented by the child classes. The overall structure and sequence of the algorithm are preserved by the parent class. If the method is defined with Final key word it cannot be overriden.
 An example of a template method:
 ``` Smalltalk 
 AbstractClass >> templateMethod:
