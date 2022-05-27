@@ -12,7 +12,7 @@ MyClass >> doSomething:
 MyClass >> doAnotherThing:
   define the method behavior.
 ```
-Therefore, the templateMethod is not to be redefined but the behavior inside can be adapted.
+Therefore, the templateMethod is not to be redefined but the behavior inside can be adapted. methods #doSomething and #doAnotheThing can be a template, concreate, abstract or hook.
 In a class or an abstract class, there is a method (template, concreate, abstract or hook) that defines the general behavior of the subclasses. 
 The details behavior is or not to be specified by the subclasses.
 
