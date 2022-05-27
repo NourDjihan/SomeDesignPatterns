@@ -1,4 +1,5 @@
 # Template Pattern:
+Template method design pattern is to define an algorithm as a skeleton of operations and leave the details to be implemented by the child classes. The overall structure and sequence of the algorithm are preserved by the parent class. 
 In a class or an abstract class, there is a method (template, concreate, abstract or hook) that defines the general behavior of the subclasses. 
 The details behavior is or not to be specified by the subclasses.
 
