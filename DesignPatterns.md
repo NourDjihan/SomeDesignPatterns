@@ -7,10 +7,10 @@ AbstractClass >> templateMethod:
   self doAnotherThing.
 
 AbstractClass superclassOf: 
- MyClass >> doSomething:
+MyClass >> doSomething:
   define the method behavior.
- MyClass >> doAnotherThing:
-   define the method behavior.
+MyClass >> doAnotherThing:
+  define the method behavior.
 ```
 Therefore, the templateMethod is not to be redefined but the behavior inside can be adapted.
 In a class or an abstract class, there is a method (template, concreate, abstract or hook) that defines the general behavior of the subclasses. 
