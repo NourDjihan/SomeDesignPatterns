@@ -1,5 +1,5 @@
 # Template Pattern:
-In a a class or an abstract class, there is a method (template, concreate, abstract or hook) that defined the general behavior of the subclasses. 
+In a class or an abstract class, there is a method (template, concreate, abstract or hook) that defines the general behavior of the subclasses. 
 The details behavior is or not to be specified by the subclasses.
 
 ## A Concreate method: 
@@ -12,4 +12,5 @@ A hook method defines a default behavior. This behavior can do nothing (Do nothi
 it can combine all of them in the same method. Where each of the called methods have Self as a receiver. Self represents the how are these
 methods perfom their tasks.
 
-###
+### Facade attern:
+Provides a unified interface to a set of interfaces in a subsystem, making the subsystem easier to use. Henceforth, subsystems are designed for flexibility and extensibility. This provides a common mode of understanding the subsytem in general without having to read the source code of each and verey subclass.
