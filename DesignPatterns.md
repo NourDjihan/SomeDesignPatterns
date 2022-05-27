@@ -28,3 +28,4 @@ methods perfom their tasks.
 
 ### Facade attern:
 Provides a unified interface to a set of interfaces in a subsystem, making the subsystem easier to use. Henceforth, subsystems are designed for flexibility and extensibility. This provides a common mode of understanding the subsytem in general without having to read the source code of each and verey subclass.
+https://www.tutorialspoint.com/design_pattern/facade_pattern.htm
