@@ -26,6 +26,8 @@ A hook method defines a default behavior. This behavior can do nothing (Do nothi
 it can combine all of them in the same method. Where each of the called methods have Self as a receiver. Self represents the how are these
 methods perfom their tasks.
 
-### Facade attern:
+### Facade pattern:
 Provides a unified interface to a set of interfaces in a subsystem, making the subsystem easier to use. Henceforth, subsystems are designed for flexibility and extensibility. This provides a common mode of understanding the subsytem in general without having to read the source code of each and verey subclass.
 https://www.tutorialspoint.com/design_pattern/facade_pattern.htm
+
+### Abstract Factory(Kit):
